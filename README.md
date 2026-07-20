@@ -1,4 +1,5 @@
-# LOB Modelling — short-horizon price prediction from limit order book data
+# LOB Modelling
+## Short-horizon price prediction from limit order book data
 
 A small, beginner-friendly benchmark of regression models that predict
 short-horizon price movement from limit-order-book (LOB) data on US equities.
@@ -8,13 +9,13 @@ volume-weighted average price (VWAP) change** at a chosen horizon (1–300 s).
 The goal is a clean, reproducible testbed for comparing a few simple modelling
 techniques on the same task, features, and data.
 
-## Problem Statement
+### Problem Statement
 High-frequency Limit Order Book (LOB) data generates massive amounts of hidden financial information, but traditional predictive models fail to accurately capture the rapid, short-term price and volume changes needed for reliable trading strategies.
 
-## USP
+### USP
 This project uniquely benchmarks advanced deep learning architectures against baseline regression models on real-world LOB data, capturing both spatial and temporal market features to accurately forecast short-term Volume-Weighted Average Price (VWAP) movements.
 
-## Problem Description
+### Problem Description
 This research utilizes high-frequency Limit Order Book data to forecast short-term stock price and volume movements. By comparing traditional Linear Regression against advanced Deep Learning neural networks, the project identifies the most accurate model for predicting market microstructure changes and optimizing automated trading strategies.
 
 ## Models
