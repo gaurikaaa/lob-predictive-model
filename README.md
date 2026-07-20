@@ -1,5 +1,4 @@
-# LOB Modelling
-# Short-horizon price prediction from limit order book data
+# LOB Modelling -- short-horizon price prediction from limit order book data 
 
 A small, beginner-friendly benchmark of regression models that predict
 short-horizon price movement from limit-order-book (LOB) data on US equities.
