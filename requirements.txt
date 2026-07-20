@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+
+# for the one neural-network model (mlp)
+torch>=1.10
+
+# data_prep/fetch_lobster_sample.py (downloads the free LOBSTER sample)
+huggingface_hub
