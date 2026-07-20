@@ -75,11 +75,11 @@ python data_prep/fetch_lobster_sample.py --tickers AAPL --levels 10
 python data_prep/build_features.py --symbols AAPL --levels 10
 
 # 3. train a model (choose from the table above)
-python train.py --model linear --timestep 3
-python train.py --model mlp --timestep 3 --epochs 30
+python src/train.py --model linear --timestep 3
+python src/train.py --model mlp --timestep 3 --epochs 30
 
 # 4. evaluate a saved model
-python eval.py --checkpoint ./checkpoints/linear.joblib --timestep 3
+python src/eval.py --checkpoint ./checkpoints/linear.joblib --timestep 3
 ```
 
 `--timestep` selects which of the 12 horizons to predict (0 = 1 s … 3 = 5 s …
